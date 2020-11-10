@@ -1,1 +1,1 @@
-web: gunicorn ptdl.wsgi 
+web: gunicorn ptdl_project.wsgi 
