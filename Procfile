@@ -1,1 +1,1 @@
-web: gunicorn ptdl.wsgi --log-file -
+web: gunicorn ptdl.wsgi 
