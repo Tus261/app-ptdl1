@@ -13,3 +13,12 @@ def chart(request):
 
 def scatter(request):
    return render(request,'pages/scatter.html')
+
+def line(request):
+   return render(request,'pages/line.html')
+
+def pie(request):
+   return render(request,'pages/pie.html')
+
+def gantt(request):
+   return render(request,'pages/gantt.html')
