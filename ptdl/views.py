@@ -7,3 +7,6 @@ def index(request):
 
 def dt(request):
    return render(request,'pages/data_analysis.html')
+
+def chart(request):
+   return render(request,'pages/chart.html')
