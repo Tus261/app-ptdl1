@@ -10,3 +10,6 @@ def dt(request):
 
 def chart(request):
    return render(request,'pages/chart.html')
+
+def scatter(request):
+   return render(request,'pages/scatter.html')
