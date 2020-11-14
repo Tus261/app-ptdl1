@@ -4,9 +4,8 @@ from . import views
 urlpatterns = [
    path('', views.index),
    path('data_analysis', views.dt),
-   path('chart',views.chart),
-   path('scatter', views.scatter),
+   path('cot', views.cot),
    path('line', views.line),
    path('pie', views.pie),
-   path('gantt', views.gantt)
+   
 ]
